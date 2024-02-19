@@ -6,6 +6,11 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+footer{
+	display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 li{
 	cursor: pointer;
 }
