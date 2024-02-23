@@ -14,6 +14,18 @@
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
+
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://moumoujah.github.io/Nina-Carducci/" />
+    <meta name="twitter:title" content="Nina Carducci photographe à Bordeaux 33200" />
+    <meta name="twitter:description" content="Nina Carducci photographe située à Bordeaux réalisant des shootings photos pour les entreprises , les mariages , les concerts , les portraits d'entrepreneurs , les familles ainsi que pour des photos de loisir" />
+    <meta name="twitter:image" content="./assets/images/nina.webp" />
+
+    <meta property="og:title" content="Nina Carducci photographe à Bordeaux 33200">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https:https://moumoujah.github.io/Nina-Carducci/">
+    <meta property="og:description" content="Nina Carducci photographe située à Bordeaux réalisant des shootings photos pour les entreprises , les mariages , les concerts , les portraits d'entrepreneurs , les familles ainsi que pour des photos de loisir">
+    <meta property="og:image" content="./assets/images/nina.webp">
 </head>
 <body>
 <header>
@@ -24,7 +36,7 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Lien instagram"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 		</ul>
 	</nav>
 </header>
@@ -159,7 +171,13 @@
 </section>
 </main>
 <footer>
-	<p>Adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
+	<div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
+		<span>Adresse :</span>
+		<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>
+		<span itemprop=”addressLocality”>Bordeaux</span>,
+		<span itemprop=”addressRegion”>Nouvelle-Aquitaine</span>
+		<span itemprop=”postalCode”>33200</span>
+		</div>
 	<p>Téléphone : 05 56 67 78 89</p>
 	<p>Je réponds au téléphone du lundi au vendredi de 10h à 19h</p>
 </footer>
