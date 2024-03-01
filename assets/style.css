@@ -49,6 +49,10 @@ header .name {
 .social-link img {
 	width: 20px;
 }
+.carousel-item img{
+	max-width: 100%;
+	height: auto;
+}
 
 #about {
 	display: flex;
