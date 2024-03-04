@@ -183,61 +183,63 @@
 	<script defer src="./assets/maugallery.min.js"></script>
 	<script defer src="./assets/scripts.min.js"></script>
 	<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
-  <script type="application/ld+json">
-  	{
-  	  "@context": "http://schema.org",
-  	  "@type": "LocalBusiness",
-  	  "name": "Nina Carducci",
-  	  "image": "https://moumoujah.github.io/Nina-Carducci/assets/images/nina-min.webp",
-  	  "telephone": "05 56 67 78 89",
-	  "description": "Nina Carducci photographe située à Bordeaux",
-  	  "address": {
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "image": "https://moumoujah.github.io/Nina-Carducci/assets/images/nina-min.webp",
+		  "telephone": "05 56 67 78 89",
+		  "description": "Nina Carducci photographe située à Bordeaux",
+		   "address": {
   		"@type": "PostalAddress",
   		"streetAddress": "68 avenue Alsace-Lorraine",
   		"addressLocality": "Bordeaux",
   		"addressRegion": "Nouvelle-Aquitaine",
   		"postalCode": "33200",
 		"addressCountry": "FR"
-  	  },
-  	  "openingHoursSpecification": {
-  		"@type": "OpeningHoursSpecification",
-  		"dayOfWeek": [
+  	    },
+		  "openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
 						"Monday",
 						"Tuesday",
 						"Wednesday",
 						"Thursday",
 						"Friday"
 					],
-  		"opens": "10:00",
-  		"closes": "19:00"
-  	  }
-		"priceRange": "€€",
-		"areaServed": ["Bordeaux", "Ile de France"],
-		"hasOfferCatalog": {
-		  "@type": "OfferCatalog",
-		  "name": "Mes services",
-		  "itemListElement": [
-			{
-			  "@type": "Offer",
-			  "name": "Shooting photo",
-			  "price": "350€/demi journée",
-			  "description": "Shooting photo à la demi-journée."
-			},
-			{
-			  "@type": "Offer",
-			  "name": "Retouches",
-			  "price": "50€/photo",
-			  "description": "Retouches photos pour un résultat professionnelles."
-			},
-			{
-			  "@type": "Offer",
-			  "name": "Album photos",
-			  "price": "400€ album A4",
-			  "description": "Un album photo personnalisé."
-			}
-		  ]
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+		  "priceRange": "€€",
+		  "areaServed": ["Bordeaux", "Ile de France"],
+		  "hasOfferCatalog": {
+			"@type": "OfferCatalog",
+			"name": "Mes services",
+			"itemListElement": [
+			  {
+				"@type": "Offer",
+				"name": "Shooting photo",
+				"price": "350€/demi journée",
+				"description": "Shooting photo à la demi-journée."
+			  },
+			  {
+				"@type": "Offer",
+				"name": "Retouches",
+				"price": "50€/photo",
+				"description": "Retouches photos pour un résultat professionnelles."
+			  },
+			  {
+				"@type": "Offer",
+				"name": "Album photos",
+				"price": "400€ album A4",
+				"description": "Un album photo personnalisé."
+			  }
+			]
+		  }
 		}
-  	}
 	</script>
 </body>
 </html>
